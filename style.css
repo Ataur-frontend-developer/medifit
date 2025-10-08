@@ -858,3 +858,15 @@
 .footer > p > span {
   text-decoration: underline;
 }
+
+@media (max-width: 1500px) {
+  .collection-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 1300px) {
+  .right-content > img {
+    width: 500px;
+  }
+}
